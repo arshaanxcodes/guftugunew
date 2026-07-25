@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Guftugu Cafe — a cozy, aesthetic vegetarian cafe near Amity University, Lucknow. Great chai, coffee, snacks & Chinese. Open 10 AM–11 PM." />
+  <title>Guftugu Cafe | Your favorite corner of Lucknow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#home" aria-label="Guftugu Cafe home">
+        <span class="nav__brand-en">Guftugu Cafe</span>
+        <span class="nav__brand-hi">गुफ्तगू कैफे</span>
+      </a>
+
+      <button
+        class="nav__toggle"
+        id="navToggle"
+        type="button"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav aria-label="Primary">
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#location">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h1 class="hero__title">Your favorite corner of Lucknow awaits</h1>
+        <p class="hero__subtitle">
+          Every cup tells a story at Guftugu Cafe. Catch up with a friend, find
+          a quiet spot to study, or simply slow down — this is your place.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="tel:07307552475">📞 Call Now</a>
+          <a class="btn btn--secondary" href="https://wa.me/917307552475" target="_blank" rel="noopener">
+            💬 WhatsApp Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-intro fade-in">
+          <h2>A space made for real conversations</h2>
+          <p>Soft lighting, cozy corners, and a warm little world of its own.</p>
+        </div>
+
+        <div class="gallery__grid">
+          <div class="gallery__item fade-in">Cafe Interior</div>
+          <div class="gallery__item fade-in">Fresh Chai</div>
+          <div class="gallery__item fade-in">Coffee Art</div>
+          <div class="gallery__item fade-in">Tasty Snacks</div>
+          <div class="gallery__item fade-in">Cozy Corner</div>
+          <div class="gallery__item fade-in">The Vibe</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__text fade-in">
+          <h2>Where good company meets great chai</h2>
+          <p>
+            Guftugu (गुफ्तगू) means conversation — and that is exactly what this
+            cafe is built around. Tucked away near Amity University in Lucknow,
+            it is a warm, aesthetic retreat from the everyday rush.
+          </p>
+          <p>
+            Step inside and you will find soft lighting, cozy corners, and an
+            atmosphere that turns one cup of chai into three. Whether you are on
+            a date, in a work meeting, or just need somewhere peaceful to think,
+            a seat is waiting for you.
+          </p>
+          <div class="about__rating">
+            <span class="about__stars" aria-hidden="true">★★★★★</span>
+            <span>4.9 from 160 reviews</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="section-intro fade-in">
+          <h2>What's on the menu</h2>
+          <p>A 100% vegetarian kitchen. Everything priced between ₹1 and ₹200.</p>
+        </div>
+
+        <div class="menu__grid">
+          <article class="menu__card fade-in">
+            <h3>Chai &amp; Coffee</h3>
+            <p>Freshly brewed and made to order. From classic cutting chai to rich, creamy coffees — your cup, your way.</p>
+            <span class="menu__price">₹1 – ₹200</span>
+          </article>
+
+          <article class="menu__card fade-in">
+            <h3>Fresh Snacks</h3>
+            <p>Light bites and hearty snacks to pair with your drink. Crispy, fresh, and made with care.</p>
+            <span class="menu__price">₹1 – ₹200</span>
+          </article>
+
+          <article class="menu__card fade-in">
+            <h3>Chinese</h3>
+            <p>Craving something more? Bold, satisfying flavors come to your table — all vegetarian, all delicious.</p>
+            <span class="menu__price">₹1 – ₹200</span>
+          </article>
+        </div>
+
+        <p class="menu__note fade-in">Pocket-friendly pricing for students, professionals, and everyone in between.</p>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <div class="section-intro fade-in">
+          <h2>Loved by our guests</h2>
+          <p>Real words from people who keep coming back.</p>
+        </div>
+
+        <div class="reviews__grid">
+          <blockquote class="review-card fade-in">
+            <p class="review-card__quote">"Excellent place for chai and coffee. Snacks are really tasty and fresh. Perfect spot to relax."</p>
+            <p class="review-card__author">— Abhinav Yadav</p>
+          </blockquote>
+
+          <blockquote class="review-card fade-in">
+            <p class="review-card__quote">"Not just a cafe, it's an experience. Beautiful ambience and a calm vibe make it perfect for long conversations."</p>
+            <p class="review-card__author">— Pradeep Singh</p>
+          </blockquote>
+
+          <blockquote class="review-card fade-in">
+            <p class="review-card__quote">"Where aroma meets ambiance. A symphony of flavours in a cozy cafe."</p>
+            <p class="review-card__author">— Hiba Irfan</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="location" id="location">
+      <div class="container">
+        <div class="section-intro fade-in">
+          <h2>Come find us</h2>
+          <p>Open daily and always ready with a warm cup.</p>
+        </div>
+
+        <div class="location__wrap fade-in">
+          <iframe
+            class="location__map"
+            title="Guftugu Cafe location on Google Maps"
+            src="https://www.google.com/maps?q=Guftugu%20Cafe%20Malhaur%20Lucknow&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <div class="location__details">
+            <h3>Address</h3>
+            <p class="location__address">
+              330A, opp. AK Palace Inn, near Amity University,<br />
+              Nijampur Malhaur, Lucknow, Uttar Pradesh 226028
+            </p>
+
+            <h3>Get in touch</h3>
+            <ul class="location__contact">
+              <li>📞 073075 52475</li>
+              <li>📞 92352 21301</li>
+              <li>🕒 Open daily · 10:00 AM – 11:00 PM</li>
+            </ul>
+
+            <div class="location__actions">
+              <a class="btn btn--primary" href="tel:07307552475">Call Now</a>
+              <a class="btn btn--secondary" href="https://wa.me/917307552475" target="_blank" rel="noopener">WhatsApp Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__brand">Guftugu Cafe · गुफ्तगू कैफे</p>
+    <p class="footer__hours">Open daily · 10:00 AM – 11:00 PM</p>
+    <a class="footer__insta" href="https://www.instagram.com/guftugu.lucknow" target="_blank" rel="noopener">
+      Follow us on Instagram @guftugu.lucknow
+    </a>
+    <p class="footer__copy">© <span id="year"></span> Guftugu Cafe, Lucknow. Made with warmth.</p>
+  </footer>
+
+  <div class="cat" id="cat1" aria-hidden="true">
+    <svg viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+      <path class="cat__tail" d="M60 60 Q92 62 82 30" fill="none" stroke="#a8543a" stroke-width="7" stroke-linecap="round" />
+      <ellipse cx="42" cy="55" rx="30" ry="20" fill="#c96a4b" />
+      <circle cx="42" cy="30" r="17" fill="#c96a4b" />
+      <polygon points="28,18 24,2 38,14" fill="#c96a4b" />
+      <polygon points="56,18 60,2 46,14" fill="#c96a4b" />
+      <circle cx="36" cy="30" r="3" fill="#3a2e26" />
+      <circle cx="48" cy="30" r="3" fill="#3a2e26" />
+      <path d="M40 36 Q42 39 44 36" fill="none" stroke="#3a2e26" stroke-width="2" stroke-linecap="round" />
+    </svg>
+  </div>
+
+  <div class="cat" id="cat2" aria-hidden="true">
+    <svg viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+      <path class="cat__tail" d="M60 60 Q92 62 82 30" fill="none" stroke="#a8823a" stroke-width="7" stroke-linecap="round" />
+      <ellipse cx="42" cy="55" rx="30" ry="20" fill="#c9a24b" />
+      <circle cx="42" cy="30" r="17" fill="#c9a24b" />
+      <polygon points="28,18 24,2 38,14" fill="#c9a24b" />
+      <polygon points="56,18 60,2 46,14" fill="#c9a24b" />
+      <circle cx="36" cy="30" r="3" fill="#3a2e26" />
+      <circle cx="48" cy="30" r="3" fill="#3a2e26" />
+      <path d="M40 36 Q42 39 44 36" fill="none" stroke="#3a2e26" stroke-width="2" stroke-linecap="round" />
+    </svg>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
